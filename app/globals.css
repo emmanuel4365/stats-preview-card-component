@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: #0a0c1c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stats-container {
+  width: 1110px;
+  height: 446px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
